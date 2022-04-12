@@ -1,0 +1,15 @@
+
+Data Types
+
+C supports the following basic data types:
+int: integer, a whole number.
+float: floating point, a number with a fractional part.
+double: double-precision floating point value.
+char: single character.
+
+The amount of storage required for each of these types varies by platform.
+C has a built-in sizeof operator that gives the memory requirements for a particular data type.
+For example:
+
+
+

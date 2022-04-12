@@ -1,0 +1,60 @@
+/*@Shyed Shahriar Housaini
+Copyright: @uthor*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
+#include <windows.h>
+///#include <threads.h>
+#include <conio.h>
+/// #include <dos.h>
+#include <direct.h>
+
+int main(void)
+
+{
+    printf(""Hello world\nHello world");
+    printf("\n");
+    printf("Hello world\\nHello world !@#$%^&*()_+=-");
+    printf("\n");
+    printf("%s","Hello world\\nHello world !@#$%^&*()_+=-");
+    printf("\n");
+    printf("%s","Hello world\nHello world");
+    printf("\n");
+
+    printf(R"(Hello world\nHello world)");
+   printf("\n");
+
+    printf(R"(Raw string support printing  *&^%$#@!~()_+-=,<.>/?:;"' )");
+  printf("\n");
+  printf(R"(.C with a Capital C file format does not support raw string. *&^%$#@!~()_+-=,<.>/?:;"' )");
+  printf("\n");
+  printf(R"(.c with a small c file format does support raw string )");
+  printf("\n");
+  printf(R"( Raw string did not support \n new line )");
+  printf("\n");
+
+  printf(
+      R"(More reading material at - https: // en.wikipedia.org/wiki/String_literal#Raw_strings;)");
+  printf("\n");
+  printf(
+      R"(More reading material at - https: // en.wikipedia.org/wiki/String_literal;)");
+  printf("\n");
+  printf(
+      R"(More reading material at - https://stackoverflow.com/questions/24850244/does-c-support-raw-string-literals;)");
+  printf("\n");
+  printf(
+      R"(More reading material at - https: // docs.microsoft.com/en-us/cpp/c-language/c-string-literals?view=vs-2019)");
+  printf("\n");
+  printf(
+      R"(More reading material at-https: // docs.microsoft.com/en-us/cpp/c-language/string-literal-concatenation?view=vs-2019)");
+  printf("\n");
+  /// Raw string.
+
+    printf(R"(More reading material at - https://www.geeksforgeeks.org/const-qualifier-in-c/;)");
+  printf("\n");
+
+
+  return 0;
+}

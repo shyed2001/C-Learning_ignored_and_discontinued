@@ -1,0 +1,389 @@
+/// Saved file with function in same directory.
+
+
+/*@Shyed Shahriar Housaini
+Copyright: @uthor*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
+#include <windows.h>
+///#include <threads.h>
+#include <conio.h>
+#include <dos.h>
+#include <direct.h>
+#include <math.h>
+#include <stdbool.h>
+#include <string.h>
+#include <strings.h>
+
+
+int main(int argc, char *argv[])
+{
+
+char s[9];
+char s[] = argv[1];
+
+printf("%s", s);
+puts("\n");
+
+
+
+    return 0;
+}
+
+
+
+/**
+
+
+int main()
+{
+    system("systeminfo");
+
+    return 0;
+}
+
+
+**/
+
+/**
+int main()
+{
+    system("cmd.exe");
+
+    return 0;
+}
+**/
+/**
+float average(int length, int array[]);
+
+int main(void)
+{
+    // Get number of scores
+    int n = get_int("Scores:  ");
+
+    // Get scores
+    int scores[n];
+    for (int i = 0; i < n; i++)
+    {
+        scores[i] = get_int("Score %i: ", i + 1);
+    }
+
+    // Print average
+    printf("Average: %.1f\n", average(n, scores));
+}
+
+float average(int length, int array[])
+{
+    int sum = 0;
+    for (int i = 0; i < length; i++)
+    {
+        sum += array[i];
+    }
+    return (float) sum / (float) length;
+}
+
+**/
+
+/**
+#include <cs50.h>
+#include <stdio.h>
+
+
+**/
+
+/**
+void swap(int firstVariable, int secondVariable);
+
+
+
+int main(void)
+{
+    int tempVariable;
+  int a = 100;
+  int b = 200;
+
+  printf("before swap: value of a: %d \n", a);
+  printf("before swap: value of b: %d \n", b);
+
+  // call function to swap values
+  swap(a, b);
+
+  // check values outside the function after swap function is run
+  printf("after swap: value of a: %d \n", a);
+  printf("after swap: value of b: %d \n", b);
+
+  return 0;
+
+}
+
+void swap(int firstVariable, int secondVariable)
+{
+ int tempVariable;
+  tempVariable = firstVariable;  /* temporarily save the value of the first variable
+  firstVariable = secondVariable;  /* swap the vale of the first variable with the value of the second variable
+  secondVariable = tempVariable;  /* put the value of the first variable into the second variable
+
+  return;
+}
+**/
+
+/**
+
+**/
+
+/**
+
+
+**/
+
+
+/**
+
+
+
+**/
+
+
+/**
+
+
+
+**/
+
+
+
+
+
+/**
+
+
+
+**/
+
+
+
+
+
+/**
+
+
+**/
+
+
+/**
+
+**/
+
+
+/**
+
+**/
+
+
+/**
+
+**/
+
+
+/**
+**/
+
+
+
+/**
+
+
+**/
+
+
+
+
+/**
+**/
+
+
+
+
+
+
+/**
+
+
+
+**/
+
+
+
+
+
+
+/**
+
+
+
+
+**/
+
+
+
+/**
+int main() {
+    char c;
+    printf("Enter a character: ");
+    scanf("%c", &c);
+
+    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+        printf("%c is an alphabet.", c);
+    else
+        printf("%c is not an alphabet.", c);
+
+    return 0;
+}
+
+**/
+
+
+
+
+/**
+*
+int main(void)
+{
+
+    float dnum = 7777.0000;
+    printf(" %f \n", dnum);
+        return 0;
+}
+
+
+int x, y, z, A, B;  /// Have to use int ?
+
+
+int valid_triangle_check( x , y , z ); ///  imported function   Saved file with function in same directory.
+
+int main()
+{
+   ///int x, y, z, A, B;
+
+printf (" Please enter the first arm length of triangle :  ");
+
+scanf(" %d", &x);   /// Have to use %d ?
+
+printf (" Please enter the second arm length of triangle :  ");
+
+scanf(" %d", &y); /// Have to use %d ?
+
+
+printf (" Please enter the third arm length of triangle :  ");
+
+scanf(" %d", &z); /// Have to use %d ?
+
+printf (" Result\n ");
+
+ /** if ( x <=0 || y <= 0 || z <= 0 )
+    {
+        printf(" Invalid Length");
+        //return 0 ;
+    }
+
+ else if ( x + y <z || y + z < x || z + x < y )
+    {
+        printf(" Invalid Triangle ");
+        //return 0 ;
+    }
+
+
+ else
+    {
+        printf(" Valid Triangle ");
+        //return 1 ;
+
+
+
+      if ( valid_triangle_check( x , y , z ) == true )
+
+  {
+      printf (" valid triangle\n");
+  }
+
+  else ///( valid_triangle_check( x , y , z ) == false )
+
+  {
+      printf (" Invalid triangle\n");
+  }
+
+return 0;
+
+}
+    } **/
+
+
+
+
+
+
+
+/**
+
+if ( valid_triangle_check( x , y , z ) == 1 )
+
+  {
+      printf (" valid triangle\n");
+  }
+
+  else ///( valid_triangle_check( x , y , z ) == false )
+
+  {
+      printf (" Invalid triangle\n");
+  }
+
+**/
+
+
+/**
+int valid_triangle_check( x , y , z )
+
+{
+
+ if ( x <=0 || y <= 0 || z <= 0 )
+    {
+        printf(" Af ");
+        return 0 ;
+    }
+
+ else if ( x + y <z || y + z < x || z + x < y )
+    {
+        printf(" Bf ");
+        return 0 ;
+    }
+
+
+ else
+    {
+        printf(" t ");
+        return 1 ;
+    }
+
+}
+
+**/
+
+/** else if ( x + y <z  )
+    {
+        printf(" Bf1 ");
+        return false ;
+    }
+
+else if (y + z < x)
+    {
+        printf(" Bf2 ");
+        return false ;
+    }
+else if ( z + x < y )
+    {
+        printf(" Bf3 ");
+        return false ;
+    }**/
