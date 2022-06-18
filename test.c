@@ -1,4 +1,9 @@
-//#include <cs50.h>
+// vim tutorial for beginners
+//freecodecamp.org 
+//https://www.youtube.com/watch?v=RZ4p-saaQkc&t=320s
+//NeuralNine
+//
+#include <cs50.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <math.h>
