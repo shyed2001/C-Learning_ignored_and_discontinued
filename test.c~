@@ -1,3 +1,5 @@
+// vim practice
+//
 //#include <cs50.h>
 #include <stdio.h>
 #include <unistd.h>
